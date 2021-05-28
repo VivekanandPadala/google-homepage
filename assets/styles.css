@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.menu li a {
+    padding: 15px 8px;
+    font-size: 13px;
+    color: #828282;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+.appsIcon {
+    margin-top: -3px;
+    height: 24px;
+    width: 24px;
+}
+
+.loginIcon {
+    margin-top: -8px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+.textLink {
+    padding-right: 15px !important;
+}
+
+.main {
+    display: flex;
+    margin-top: 85px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchBox {
+    position: relative;
+}
+
+.searchBox .searchIcon {
+    position: absolute;
+    top: 12px;
+    left: 7px;
+}
+
+.searchBox .mikeIcon {
+    position: absolute;
+    top: 10px;
+    left: auto;
+    right: 10px;
+}
+
+.searchBox .searchInput {
+    text-indent: 30px;
+}
+
+.searchInput {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    width: 560px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+.searchInput:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.covidSlogan {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.covidSlogan:hover {
+    text-decoration: underline;
+}
+
+.googleOfferingText {
+    font-size: 13px;
+}
+
+.googleOfferingLink {
+    text-decoration: none;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.googleOfferingLink:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.country {
+    font-size: 15px;
+    padding: 15px 45px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.country a {
+    color: rgba(0, 0, 0, .54);
+    text-decoration: none;
+}
+
+.country a:hover {
+    color: rgba(0, 0, 0, .54);
+    text-decoration: underline;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerLeftNavLinks {
+    list-style-type: none;
+}
+
+.footerRightNavLinks {
+    list-style-type: none;
+}
+
+.navLinks {
+    padding: 5px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.navLinks a {
+    color: rgba(0, 0, 0, .54);
+    text-decoration: none;
+}
+
+.navLinks a:hover {
+    color: rgba(0, 0, 0, .54);
+    text-decoration: underline;
+}
+
+.settings {
+    margin-right: 30px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.googleButton {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.googleButton:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .searchInput {
+        width: 300px;
+    }
+}

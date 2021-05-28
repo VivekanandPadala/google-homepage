@@ -1,3 +1,7 @@
-# Google India Homepage in HTML and CSS
+# The Odin Project Web Development
 
-## For The Odin Project!
+## Course: Foundations
+
+### Project: Google India Homepage
+
+Google India Homepage clone created with HTML and CSS.
